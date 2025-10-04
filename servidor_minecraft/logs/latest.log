@@ -1,519 +1,592 @@
-[03Oct2025 23:35:46.829] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[03Oct2025 23:35:46.833] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[03Oct2025 23:35:47.406] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[03Oct2025 23:35:47.453] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/serverMCs/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[03Oct2025 23:35:47.830] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverMCs/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[03Oct2025 23:35:47.831] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverMCs/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[03Oct2025 23:35:47.832] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverMCs/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[03Oct2025 23:35:47.833] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/serverMCs/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[03Oct2025 23:35:48.217] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/serverMCs/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29 (1).jar
-[03Oct2025 23:35:48.217] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/serverMCs/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
-[03Oct2025 23:35:48.217] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
-[03Oct2025 23:35:51.150] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03Oct2025 23:35:51.324] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
-[03Oct2025 23:35:51.326] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
-[03Oct2025 23:35:51.415] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
-[03Oct2025 23:35:51.503] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[03Oct2025 23:35:51.506] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[03Oct2025 23:35:51.781] [main/WARN] [mixin/]: Reference map 'mixins.luminous_beasts.refmap.json' for mixins.luminous_beasts.json could not be read. If this is a development environment you can ignore this message
-[03Oct2025 23:35:51.800] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[03Oct2025 23:35:51.821] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[03Oct2025 23:35:52.102] [main/WARN] [mixin/]: Error loading class: sekelsta/horse_colors/entity/AbstractHorseGenetic (java.lang.ClassNotFoundException: sekelsta.horse_colors.entity.AbstractHorseGenetic)
-[03Oct2025 23:35:52.103] [main/WARN] [mixin/]: @Mixin target sekelsta.horse_colors.entity.AbstractHorseGenetic was not found horseman.mixins.json:realistic_horse_genetics.creative_taming.AbstractHorseGeneticMixin
-[03Oct2025 23:35:52.552] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[03Oct2025 23:35:52.579] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[03Oct2025 23:35:53.823] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[03Oct2025 23:35:54.601] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[03Oct2025 23:35:54.602] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[03Oct2025 23:35:54.797] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$znh000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[03Oct2025 23:35:56.463] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[03Oct2025 23:35:56.463] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[03Oct2025 23:35:59.068] [main/WARN] [mixin/]: Method overwrite conflict for scheduleRandomTick in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
-[03Oct2025 23:35:59.069] [main/WARN] [mixin/]: Method overwrite conflict for getScheduledRandomTicks in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
-[03Oct2025 23:36:00.604] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
-[03Oct2025 23:36:00.606] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
-[03Oct2025 23:36:00.629] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
-[03Oct2025 23:36:00.629] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
-[03Oct2025 23:36:00.649] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
-[03Oct2025 23:36:01.315] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.5.
-[03Oct2025 23:36:01.742] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[03Oct2025 23:36:02.225] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[03Oct2025 23:36:02.241] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[03Oct2025 23:36:02.587] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[03Oct2025 23:36:02.592] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[03Oct2025 23:36:02.594] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[03Oct2025 23:36:02.598] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[03Oct2025 23:36:02.599] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[03Oct2025 23:36:02.601] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[03Oct2025 23:36:02.609] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[03Oct2025 23:36:02.694] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
-[03Oct2025 23:36:02.729] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[03Oct2025 23:36:02.729] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[03Oct2025 23:36:02.826] [modloading-worker-0/INFO] [alcocraftplus/]: Initializing recipes for AlcoCraftPlus
-[03Oct2025 23:36:03.677] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
-[03Oct2025 23:36:03.682] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[03Oct2025 23:36:03.682] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[03Oct2025 23:36:03.827] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone items
-[03Oct2025 23:36:03.962] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Blocks
-[03Oct2025 23:36:04.026] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Wood
-[03Oct2025 23:36:04.027] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Entities
-[03Oct2025 23:36:04.029] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Entities
-[03Oct2025 23:36:04.030] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Creative Tabs
-[03Oct2025 23:36:04.033] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sounds
-[03Oct2025 23:36:04.034] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Predicate
-[03Oct2025 23:36:04.039] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone State Providers
-[03Oct2025 23:36:04.045] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Decorators
-[03Oct2025 23:36:04.070] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Features
-[03Oct2025 23:36:04.078] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Structure Pieces
-[03Oct2025 23:36:04.085] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Types
-[03Oct2025 23:36:04.102] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Configured Features
-[03Oct2025 23:36:04.135] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Configured Features
-[03Oct2025 23:36:04.201] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/serverMCs/servidor_minecraft/config/yacl.json5'
-[03Oct2025 23:36:04.262] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Configured Features
-[03Oct2025 23:36:04.266] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Configured Features
-[03Oct2025 23:36:04.280] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes You'll Go Overworld Configured Features
-[03Oct2025 23:36:04.287] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Placed Features
-[03Oct2025 23:36:04.298] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Tree Placed Features
-[03Oct2025 23:36:04.316] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Placed Features
-[03Oct2025 23:36:04.320] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Placed Features
-[03Oct2025 23:36:04.320] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Surface Rules
-[03Oct2025 23:36:04.343] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Template Pools
-[03Oct2025 23:36:04.366] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biome's We've Gone Village Template Pools
-[03Oct2025 23:36:04.367] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Poi Types
-[03Oct2025 23:36:04.371] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Villager Professions
-[03Oct2025 23:36:04.373] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Processors
-[03Oct2025 23:36:04.374] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone villager types
-[03Oct2025 23:36:04.378] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Schedules
-[03Oct2025 23:36:04.379] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Memory Module Types
-[03Oct2025 23:36:04.381] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sensor Types
-[03Oct2025 23:36:04.554] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[03Oct2025 23:36:08.282] [modloading-worker-0/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod now runs with a config file. Feel free to use it!
-[03Oct2025 23:36:08.340] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
-[03Oct2025 23:36:08.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Starting version check at https://api.modrinth.com/updates/EEIwvQVo/forge_updates.json
-[03Oct2025 23:36:08.450] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
-[03Oct2025 23:36:08.458] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
-[03Oct2025 23:36:08.491] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[03Oct2025 23:36:08.529] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
-[03Oct2025 23:36:08.532] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[03Oct2025 23:36:08.556] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
-[03Oct2025 23:36:08.557] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
-[03Oct2025 23:36:08.558] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
-[03Oct2025 23:36:08.709] [modloading-worker-0/ERROR] [improvedmobs/]: No items with following names exist: [luminousworld:headwraps_helmet, luminousworld:shellmet_helmet]
-[03Oct2025 23:36:08.819] [main/INFO] [journeymap/]: Initializing Packet Registries
-[03Oct2025 23:36:08.845] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_tidal_towns] Found status: OUTDATED Current: 1.3.4 Target: 1.3.4+mod
-[03Oct2025 23:36:08.845] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[03Oct2025 23:36:08.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[03Oct2025 23:36:08.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Starting version check at https://raw.githubusercontent.com/Rajhab/MoreVanillaShields-UpdateChecker/main/update.json
-[03Oct2025 23:36:08.970] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [morevanillashields] Found status: AHEAD Current: 1.1.5-1.20.1-beta Target: null
-[03Oct2025 23:36:08.971] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[03Oct2025 23:36:08.972] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[03Oct2025 23:36:08.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03Oct2025 23:36:08.973] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_0 to index 1 for type OVERWORLD
-[03Oct2025 23:36:08.974] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_1 to index 2 for type OVERWORLD
-[03Oct2025 23:36:08.975] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_2 to index 3 for type OVERWORLD
-[03Oct2025 23:36:09.039] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[03Oct2025 23:36:09.087] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[03Oct2025 23:36:09.087] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[03Oct2025 23:36:09.131] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[03Oct2025 23:36:09.142] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[03Oct2025 23:36:09.143] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[03Oct2025 23:36:09.158] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[03Oct2025 23:36:09.164] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[03Oct2025 23:36:09.167] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
-[03Oct2025 23:36:09.177] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.ninni.spawn.compat.jade.JadePlugin
-[03Oct2025 23:36:09.192] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
-[03Oct2025 23:36:09.194] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
-[03Oct2025 23:36:09.194] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
-[03Oct2025 23:36:09.597] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.6.4 Target: null
-[03Oct2025 23:36:09.598] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[03Oct2025 23:36:09.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.20.1-1.5.1 Target: null
-[03Oct2025 23:36:09.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[03Oct2025 23:36:09.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[03Oct2025 23:36:09.834] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
-[03Oct2025 23:36:09.867] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 1.20.1-2.3.2 Target: null
-[03Oct2025 23:36:09.867] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
-[03Oct2025 23:36:09.886] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
-[03Oct2025 23:36:11.851] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03Oct2025 23:36:14.122] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverMCs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23303!/assets/.mcassetsroot' uses unexpected schema
-[03Oct2025 23:36:14.122] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverMCs/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23303!/data/.mcassetsroot' uses unexpected schema
-[03Oct2025 23:36:15.166] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.168] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.168] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.170] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.171] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.171] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.171] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.172] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.172] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
-[03Oct2025 23:36:15.172] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[03Oct2025 23:36:16.442] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.451] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/tw_mangrove_tower as it is missing following references: twilightforest:swamp (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	twilightforest:fire_swamp (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.451] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:shaded_woodlands (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:crystal_dunes (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:sunset_maple_forest (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:rising_creek (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:crystal_roughs (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:searing_grassland (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:crescent_orchard (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.452] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_eyestalker as it is missing following references: #forge:is_end (from enemyexpansion-2.3.1-forge-1.20.1.jar)
-[03Oct2025 23:36:16.455] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.458] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.460] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.461] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/tw_canopy_tower as it is missing following references: twilightforest:forest (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	twilightforest:spooky_forest (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	twilightforest:mushroom_forest (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.462] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:brightlands (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:slushlands (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:frostbitten_forest (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:frostbitten_forest_clearing (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:snow_covered_pines (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:brisk_meadow (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	blue_skies:polar_highland (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.464] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	ad_astra:martian_wastelands (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.465] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.20.1-1.0.6.jar), 
-	ad_astra:glacio_ice_peaks (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.468] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from totw_modded-forge-1.20.1-1.0.6.jar)
-[03Oct2025 23:36:16.543] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:vital_vein_tools as it is missing following references: #forge:vital_vein_hammer (from just_in_nether-1.1.9-forge-1.20.1.jar)
-[03Oct2025 23:36:18.348] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ati_structures:chests/archer_chest
-com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_components'
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[03Oct2025 23:36:20.281] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/pigmar}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[03Oct2025 23:36:20.281] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/dullkin}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[03Oct2025 23:36:20.281] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/pigmar}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[03Oct2025 23:36:20.281] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/bullkindar}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[03Oct2025 23:36:20.281] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/dullkin}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[03Oct2025 23:36:20.281] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:just_in_nether:entities/bullkindar}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[03Oct2025 23:36:20.316] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_ash_block
-com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[03Oct2025 23:36:20.329] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe obsidianequipment:obsidian_hammer_recipe
-com.google.gson.JsonSyntaxException: Unknown item 'hammermod:hammer_obsidian'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[03Oct2025 23:36:20.353] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe obsidianequipment:obsidian_shard_recipe
-com.google.gson.JsonSyntaxException: Unknown item 'exlinecraft:obsidian_ingot'
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[03Oct2025 23:36:20.420] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
-[03Oct2025 23:36:20.421] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function enemyexpansion:silver_exes
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
-	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[03Oct2025 23:36:20.548] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement obsidianequipment:recipes/misc/obsidian_pickaxe: Unknown item id 'minecraft:obsidian_pickaxe'
-[03Oct2025 23:36:20.589] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3856 advancements
-[03Oct2025 23:36:20.595] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[03Oct2025 23:36:20.597] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
-[03Oct2025 23:36:20.608] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
-[03Oct2025 23:36:20.614] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
-[03Oct2025 23:36:20.617] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
-com.google.gson.JsonSyntaxException: Unknown type 'neoforge:loot_table_id'
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.predicates.CompositeLootItemCondition$Serializer.m_7561_(CompositeLootItemCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.predicates.CompositeLootItemCondition$Serializer.m_7561_(CompositeLootItemCondition.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$3.decode(RecordCodecBuilder.java:248) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.4.0-universal.jar%23308!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23303!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[03Oct2025 23:36:20.621] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id crittersandcompanions:inject_clams - error: Unknown type 'neoforge:loot_table_id'
-[03Oct2025 23:36:20.636] [main/INFO] [com.ninni.spawn.Spawn/]: Loaded 43 animal variants
-[03Oct2025 23:36:20.640] [main/INFO] [com.ninni.spawn.Spawn/]: Loaded 9 anthill rot recipes
-[03Oct2025 23:36:20.641] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[03Oct2025 23:36:20.657] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/tw_canopy_tower, totw_modded:has_structure/tw_mangrove_tower, totw_modded:has_structure/venus_tower
-[03Oct2025 23:36:22.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[03Oct2025 23:36:22.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[03Oct2025 23:36:22.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[03Oct2025 23:36:22.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[03Oct2025 23:36:22.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[03Oct2025 23:36:22.676] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[03Oct2025 23:36:22.762] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03Oct2025 23:36:22.762] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[03Oct2025 23:36:22.762] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03Oct2025 23:36:22.762] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[03Oct2025 23:36:22.779] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[03Oct2025 23:36:22.781] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[03Oct2025 23:36:23.166] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[03Oct2025 23:36:23.167] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
-[03Oct2025 23:36:23.167] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
-[03Oct2025 23:36:23.167] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
-[03Oct2025 23:36:23.168] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
-[03Oct2025 23:36:23.168] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[03Oct2025 23:36:23.168] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
-[03Oct2025 23:36:23.169] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
-[03Oct2025 23:36:23.169] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
-[03Oct2025 23:36:23.169] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
-[03Oct2025 23:36:23.197] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[03Oct2025 23:36:23.199] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[03Oct2025 23:36:23.647] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[03Oct2025 23:36:23.648] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[03Oct2025 23:36:23.649] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[03Oct2025 23:36:38.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[03Oct2025 23:36:43.641] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.642] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.642] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.643] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.645] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.646] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.646] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.651] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.653] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.656] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:43.657] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:44.024] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[03Oct2025 23:36:44.525] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[03Oct2025 23:36:44.786] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6263 ms
-[03Oct2025 23:36:44.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.012s)! For help, type "help"
-[03Oct2025 23:36:44.859] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[03Oct2025 23:36:44.926] [Server thread/INFO] [com.rajhab.morevanillashields_mod.morevanillashields/]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[03Oct2025 23:36:44.929] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[03Oct2025 23:36:44.930] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[03Oct2025 23:36:44.931] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[03Oct2025 23:36:44.946] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[03Oct2025 23:36:44.965] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
-[03Oct2025 23:38:04.425] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@57bc77b3[id=<null>,name=DrPingaFloja,properties={},legacy=false] (/10.243.223.92:54942) lost connection: Disconnected
-[03Oct2025 23:42:01.535] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[03Oct2025 23:42:01.591] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DrPingaFloja[/10.243.223.92:51990] logged in with entity id 145 at (-71.5, 68.0, -150.5)
-[03Oct2025 23:42:01.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DrPingaFloja joined the game
-[03Oct2025 23:42:01.954] [Server thread/INFO] [Jade/]: Syncing config to DrPingaFloja (f45bc295-6c7a-3aa9-95fe-73944750202f)
-[03Oct2025 23:42:02.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DrPingaFloja has made the advancement [Ice and Fire]
-[03Oct2025 23:42:02.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DrPingaFloja has completed the challenge [The Undead]
-[03Oct2025 23:42:02.699] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of DrPingaFloja (20)
-[03Oct2025 23:42:02.702] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to DrPingaFloja
-[03Oct2025 23:42:12.385] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player f45bc295-6c7a-3aa9-95fe-73944750202f
-[03Oct2025 23:42:13.379] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player f45bc295-6c7a-3aa9-95fe-73944750202f
-[03Oct2025 23:42:13.384] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player DrPingaFloja (f45bc295-6c7a-3aa9-95fe-73944750202f) successfully connected to voice chat
-[03Oct2025 23:44:27.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set DrPingaFloja's game mode to Creative Mode
-[03Oct2025 23:44:46.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made DrPingaFloja a server operator
-[03Oct2025 23:44:58.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DrPingaFloja has reached the goal [Auch... It hurts!]
-[03Oct2025 23:45:43.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DrPingaFloja: Set the time to 1000]
+[04Oct2025 00:00:19.478] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:00:19.556] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:00:19.643] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:00:19.748] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:00:19.841] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:00:42.555] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
+[04Oct2025 00:01:01.201] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:02.513] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:02.612] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:02.701] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:02.805] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:03.102] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:03.399] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:03.803] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:04.119] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:04.602] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:04.701] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:04.802] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:04.895] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:04.993] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.097] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.194] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.297] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.398] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.503] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.601] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.696] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.803] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.904] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:05.999] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.195] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.298] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.401] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.524] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.652] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.702] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.797] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:06.903] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.004] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.118] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.199] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.342] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.420] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.515] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.626] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.744] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.798] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:07.913] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:08.013] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:08.108] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:08.252] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:08.354] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:08.447] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:08.625] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:09.902] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:10.148] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:10.306] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:10.393] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:10.601] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:10.703] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:10.923] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:11.103] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:11.194] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:11.426] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:11.496] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:11.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:11.797] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:12.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:12.107] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:12.325] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:12.497] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:12.595] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:12.798] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:12.893] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:16.832] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:16.942] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:17.033] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:17.094] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:17.194] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:17.382] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:18.592] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:18.692] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:18.795] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:18.892] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:18.999] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.119] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.200] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.305] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.428] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.493] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.592] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.697] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.799] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:19.892] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.005] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.193] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.294] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.404] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.514] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.691] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.792] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:20.911] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.025] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.192] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.295] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.392] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.496] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.706] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.797] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.891] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:21.995] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:27.647] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:27.755] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:29.949] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:30.052] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:30.150] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:30.247] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:30.360] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:41.548] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:41.646] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:41.757] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:41.851] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:41.945] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:42.043] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:42.144] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:42.243] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:42.340] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:42.443] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[04Oct2025 00:01:53.622] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=292, y=-12, z=-224}
+[04Oct2025 00:01:54.349] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=267, y=-12, z=-212}
+[04Oct2025 00:03:23.341] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-1692, y=2, z=-1554} but found not block entity block Block{minecraft:dripstone_block} at location
+[04Oct2025 00:03:23.341] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dripstone_block} but failed at location BlockPos{x=-1692, y=2, z=-1554}
+[04Oct2025 00:03:31.754] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=193, y=-6, z=-244}
+[04Oct2025 00:03:31.757] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=292, y=-12, z=-224}
+[04Oct2025 00:03:52.190] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DrPingaFloja moved too quickly! -10.746358303987563,0.0,0.4848697279778662
+[04Oct2025 00:03:52.278] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=267, y=-11, z=-247}
+[04Oct2025 00:03:53.023] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=292, y=-12, z=-224}
+[04Oct2025 00:04:00.710] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=245, y=-12, z=-212}
+[04Oct2025 00:04:00.710] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=245, y=-12, z=-209}
+[04Oct2025 00:04:02.457] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=292, y=-12, z=-224}
+[04Oct2025 00:04:02.458] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=292, y=-12, z=-224}
+[04Oct2025 00:04:03.460] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=292, y=-12, z=-224}
+[04Oct2025 00:04:34.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7 chunks (0.17%), ETA: 0:10:21, Rate: 6.8 cps, Current: -122, -89
+[04Oct2025 00:04:38.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10 chunks (0.24%), ETA: 0:38:29, Rate: 1.8 cps, Current: -122, -92
+[04Oct2025 00:04:40.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11 chunks (0.26%), ETA: 0:45:40, Rate: 1.5 cps, Current: -122, -93
+[04Oct2025 00:04:42.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 148 chunks (3.50%), ETA: 0:04:14, Rate: 16.0 cps, Current: -123, -92
+[04Oct2025 00:04:43.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 152 chunks (3.60%), ETA: 0:04:36, Rate: 14.7 cps, Current: -122, -94
+[04Oct2025 00:04:45.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 168 chunks (3.98%), ETA: 0:04:47, Rate: 14.1 cps, Current: -126, -94
+[04Oct2025 00:04:46.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 174 chunks (4.12%), ETA: 0:05:04, Rate: 13.3 cps, Current: -126, -91
+[04Oct2025 00:04:47.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 179 chunks (4.24%), ETA: 0:05:22, Rate: 12.5 cps, Current: -126, -95
+[04Oct2025 00:04:48.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 182 chunks (4.31%), ETA: 0:05:47, Rate: 11.6 cps, Current: -123, -87
+[04Oct2025 00:04:50.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 188 chunks (4.45%), ETA: 0:06:06, Rate: 11.0 cps, Current: -125, -90
+[04Oct2025 00:04:51.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 192 chunks (4.54%), ETA: 0:06:25, Rate: 10.5 cps, Current: -125, -88
+[04Oct2025 00:04:52.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 198 chunks (4.69%), ETA: 0:06:34, Rate: 10.2 cps, Current: -125, -86
+[04Oct2025 00:04:53.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 203 chunks (4.80%), ETA: 0:06:45, Rate: 9.9 cps, Current: -126, -85
+[04Oct2025 00:04:54.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 208 chunks (4.92%), ETA: 0:06:54, Rate: 9.7 cps, Current: -125, -84
+[04Oct2025 00:04:55.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 214 chunks (5.07%), ETA: 0:07:01, Rate: 9.5 cps, Current: -126, -82
+[04Oct2025 00:04:57.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 218 chunks (5.16%), ETA: 0:07:18, Rate: 9.1 cps, Current: -125, -81
+[04Oct2025 00:04:58.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 220 chunks (5.21%), ETA: 0:07:33, Rate: 8.8 cps, Current: -125, -79
+[04Oct2025 00:04:59.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 236 chunks (5.59%), ETA: 0:07:29, Rate: 8.9 cps, Current: -127, -95
+[04Oct2025 00:05:01.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 242 chunks (5.73%), ETA: 0:07:42, Rate: 8.6 cps, Current: -127, -89
+[04Oct2025 00:05:02.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 254 chunks (6.01%), ETA: 0:07:41, Rate: 8.6 cps, Current: -127, -83
+[04Oct2025 00:05:03.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 260 chunks (6.15%), ETA: 0:07:42, Rate: 8.6 cps, Current: -123, -77
+[04Oct2025 00:05:04.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 267 chunks (6.32%), ETA: 0:06:43, Rate: 9.8 cps, Current: -125, -78
+[04Oct2025 00:05:06.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 273 chunks (6.46%), ETA: 0:06:50, Rate: 9.6 cps, Current: -125, -75
+[04Oct2025 00:05:07.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 280 chunks (6.63%), ETA: 0:07:02, Rate: 9.3 cps, Current: -126, -73
+[04Oct2025 00:05:09.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 286 chunks (6.77%), ETA: 0:06:50, Rate: 9.6 cps, Current: -127, -77
+[04Oct2025 00:05:10.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 289 chunks (6.84%), ETA: 0:13:01, Rate: 5.0 cps, Current: -126, -72
+[04Oct2025 00:05:12.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 290 chunks (6.86%), ETA: 0:13:49, Rate: 4.7 cps, Current: -127, -75
+[04Oct2025 00:05:13.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 295 chunks (6.98%), ETA: 0:14:46, Rate: 4.4 cps, Current: -126, -70
+[04Oct2025 00:05:15.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 296 chunks (7.01%), ETA: 0:15:45, Rate: 4.2 cps, Current: -127, -71
+[04Oct2025 00:05:18.082] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task stopped for minecraft:overworld.
+[04Oct2025 00:05:54.938] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager VillagergolemhealerEntity['Golem Healer'/3995, l='ServerLevel[world]', x=-1836.46, y=64.00, z=-1262.16] died, message: 'Golem Healer was mauled by Necromancer's undead'
+[04Oct2025 00:05:54.940] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity VillagergolemhealerEntity['Golem Healer'/3995, l='ServerLevel[world]', x=-1836.46, y=64.00, z=-1262.16] died: Golem Healer was mauled by Necromancer's undead
+[04Oct2025 00:06:00.255] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/3507, l='ServerLevel[world]', x=-1877.04, y=66.00, z=-1290.52] died, message: 'Unemployed was slain by Zombie'
+[04Oct2025 00:06:09.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DrPingaFloja: Set the world spawn point to -1895, 63, -1190 [0.0]]
+[04Oct2025 00:06:59.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DrPingaFloja: Set the time to 1000]
+[04Oct2025 00:07:19.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DrPingaFloja has made the advancement [Monster Hunter]
+[04Oct2025 00:08:21.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DrPingaFloja> g
+[04Oct2025 00:12:28.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DrPingaFloja has made the advancement [Stone Age]
+[04Oct2025 00:14:41.132] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DrPingaFloja moved too quickly! 10.083055280527105,0.0,0.26522799932354246
+[04Oct2025 00:16:48.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1068 chunks (25.28%), ETA: 0:00:03, Rate: 899.6 cps, Current: -103, -69
+[04Oct2025 00:16:49.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1071 chunks (25.35%), ETA: 0:00:08, Rate: 392.5 cps, Current: -100, -69
+[04Oct2025 00:16:50.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1132 chunks (26.79%), ETA: 0:00:11, Rate: 277.7 cps, Current: -97, -69
+[04Oct2025 00:16:51.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1135 chunks (26.86%), ETA: 0:00:15, Rate: 201.4 cps, Current: -102, -67
+[04Oct2025 00:16:52.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1165 chunks (27.57%), ETA: 0:00:18, Rate: 167.8 cps, Current: -96, -68
+[04Oct2025 00:16:53.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1196 chunks (28.31%), ETA: 0:00:21, Rate: 143.6 cps, Current: -94, -68
+[04Oct2025 00:16:54.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1199 chunks (28.38%), ETA: 0:00:25, Rate: 120.1 cps, Current: -93, -68
+[04Oct2025 00:16:56.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1204 chunks (28.50%), ETA: 0:00:29, Rate: 104.1 cps, Current: -102, -66
+[04Oct2025 00:16:57.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1219 chunks (28.85%), ETA: 0:00:31, Rate: 94.2 cps, Current: -96, -66
+[04Oct2025 00:16:58.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1225 chunks (28.99%), ETA: 0:00:35, Rate: 85.6 cps, Current: -91, -69
+[04Oct2025 00:16:59.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1232 chunks (29.16%), ETA: 0:00:38, Rate: 78.5 cps, Current: -101, -65
+[04Oct2025 00:17:00.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1239 chunks (29.33%), ETA: 0:00:41, Rate: 72.5 cps, Current: -94, -65
+[04Oct2025 00:17:01.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1246 chunks (29.49%), ETA: 0:00:44, Rate: 67.6 cps, Current: -90, -67
+[04Oct2025 00:17:03.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1249 chunks (29.56%), ETA: 0:00:51, Rate: 57.9 cps, Current: -89, -96
+[04Oct2025 00:17:05.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1254 chunks (29.68%), ETA: 0:00:54, Rate: 54.3 cps, Current: -89, -91
+[04Oct2025 00:17:05.075] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DrPingaFloja moved too quickly! 10.211735456891574,0.3693736602695097,0.5575624971850175
+[04Oct2025 00:17:05.111] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8426ms or 168 ticks behind
+[04Oct2025 00:17:06.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1259 chunks (29.80%), ETA: 0:00:57, Rate: 51.4 cps, Current: -89, -86
+[04Oct2025 00:17:07.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1260 chunks (29.82%), ETA: 0:01:02, Rate: 47.7 cps, Current: -89, -85
+[04Oct2025 00:17:08.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1267 chunks (29.99%), ETA: 0:01:05, Rate: 45.4 cps, Current: -89, -78
+[04Oct2025 00:17:09.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1272 chunks (30.11%), ETA: 0:01:07, Rate: 43.6 cps, Current: -89, -73
+[04Oct2025 00:17:10.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1277 chunks (30.22%), ETA: 0:01:10, Rate: 41.9 cps, Current: -89, -68
+[04Oct2025 00:17:12.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1280 chunks (30.30%), ETA: 0:01:13, Rate: 39.8 cps, Current: -88, -95
+[04Oct2025 00:17:13.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1287 chunks (30.46%), ETA: 0:01:17, Rate: 38.1 cps, Current: -88, -88
+[04Oct2025 00:17:14.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1295 chunks (30.65%), ETA: 0:01:20, Rate: 36.5 cps, Current: -88, -80
+[04Oct2025 00:17:18.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1299 chunks (30.75%), ETA: 0:06:12, Rate: 7.8 cps, Current: -88, -76
+[04Oct2025 00:17:19.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1307 chunks (30.93%), ETA: 0:08:04, Rate: 6.0 cps, Current: -88, -68
+[04Oct2025 00:17:22.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1310 chunks (31.01%), ETA: 0:09:54, Rate: 4.9 cps, Current: -89, -65
+[04Oct2025 00:17:24.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1313 chunks (31.08%), ETA: 0:12:25, Rate: 3.9 cps, Current: -87, -96
+[04Oct2025 00:17:25.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1318 chunks (31.20%), ETA: 0:12:19, Rate: 3.9 cps, Current: -87, -91
+[04Oct2025 00:17:26.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1324 chunks (31.34%), ETA: 0:13:26, Rate: 3.6 cps, Current: -87, -85
+[04Oct2025 00:17:27.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1333 chunks (31.55%), ETA: 0:13:01, Rate: 3.7 cps, Current: -87, -76
+[04Oct2025 00:17:29.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1340 chunks (31.72%), ETA: 0:13:10, Rate: 3.6 cps, Current: -87, -69
+[04Oct2025 00:17:32.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1345 chunks (31.83%), ETA: 0:14:04, Rate: 3.4 cps, Current: -96, -104
+[04Oct2025 00:17:32.407] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DrPingaFloja moved too quickly! -2.063772855697607,-1.044812420399012,9.986185842646819
+[04Oct2025 00:17:33.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1380 chunks (32.66%), ETA: 0:10:37, Rate: 4.5 cps, Current: -95, -101
+[04Oct2025 00:17:33.860] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13775ms or 275 ticks behind
+[04Oct2025 00:17:34.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1384 chunks (32.76%), ETA: 0:10:42, Rate: 4.4 cps, Current: -95, -103
+[04Oct2025 00:17:35.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1390 chunks (32.90%), ETA: 0:10:34, Rate: 4.5 cps, Current: -92, -102
+[04Oct2025 00:17:36.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1395 chunks (33.02%), ETA: 0:10:06, Rate: 4.7 cps, Current: -92, -104
+[04Oct2025 00:17:38.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1400 chunks (33.14%), ETA: 0:10:16, Rate: 4.6 cps, Current: -90, -101
+[04Oct2025 00:17:39.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1408 chunks (33.33%), ETA: 0:10:03, Rate: 4.7 cps, Current: -91, -105
+[04Oct2025 00:17:43.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1410 chunks (33.37%), ETA: 0:11:12, Rate: 4.2 cps, Current: -89, -97
+[04Oct2025 00:17:44.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1417 chunks (33.54%), ETA: 0:11:08, Rate: 4.2 cps, Current: -89, -104
+[04Oct2025 00:17:47.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1419 chunks (33.59%), ETA: 0:11:13, Rate: 4.2 cps, Current: -95, -106
+[04Oct2025 00:17:49.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1423 chunks (33.68%), ETA: 0:11:45, Rate: 4.0 cps, Current: -91, -106
+[04Oct2025 00:17:49.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DrPingaFloja has made the advancement [Sweet Dreams]
+[04Oct2025 00:17:50.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1430 chunks (33.85%), ETA: 0:10:53, Rate: 4.3 cps, Current: -88, -101
+[04Oct2025 00:17:52.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1432 chunks (33.89%), ETA: 0:11:16, Rate: 4.1 cps, Current: -88, -103
+[04Oct2025 00:17:56.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1436 chunks (33.99%), ETA: 0:12:05, Rate: 3.8 cps, Current: -127, -100
+[04Oct2025 00:17:56.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DrPingaFloja: Set the time to 1000]
+[04Oct2025 00:17:57.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1447 chunks (34.25%), ETA: 0:11:50, Rate: 3.9 cps, Current: -126, -98
+[04Oct2025 00:17:58.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1454 chunks (34.41%), ETA: 0:11:39, Rate: 4.0 cps, Current: -126, -104
+[04Oct2025 00:17:59.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1461 chunks (34.58%), ETA: 0:10:45, Rate: 4.3 cps, Current: -124, -97
+[04Oct2025 00:18:01.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1467 chunks (34.72%), ETA: 0:10:44, Rate: 4.3 cps, Current: -124, -105
+[04Oct2025 00:18:02.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1477 chunks (34.96%), ETA: 0:10:14, Rate: 4.5 cps, Current: -95, -107
+[04Oct2025 00:18:03.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1480 chunks (35.03%), ETA: 0:13:24, Rate: 3.4 cps, Current: -123, -100
+[04Oct2025 00:18:04.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1489 chunks (35.24%), ETA: 0:12:43, Rate: 3.6 cps, Current: -122, -98
+[04Oct2025 00:18:05.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1495 chunks (35.38%), ETA: 0:12:41, Rate: 3.6 cps, Current: -121, -97
+[04Oct2025 00:18:06.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1502 chunks (35.55%), ETA: 0:12:32, Rate: 3.6 cps, Current: -121, -101
+[04Oct2025 00:18:07.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1511 chunks (35.76%), ETA: 0:11:59, Rate: 3.8 cps, Current: -90, -107
+[04Oct2025 00:18:09.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1514 chunks (35.83%), ETA: 0:12:36, Rate: 3.6 cps, Current: -87, -106
+[04Oct2025 00:18:11.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1525 chunks (36.09%), ETA: 0:10:50, Rate: 4.1 cps, Current: -128, -97
+[04Oct2025 00:18:12.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1535 chunks (36.33%), ETA: 0:10:26, Rate: 4.3 cps, Current: -128, -107
+[04Oct2025 00:18:13.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1541 chunks (36.47%), ETA: 0:10:30, Rate: 4.3 cps, Current: -122, -107
+[04Oct2025 00:18:13.854] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8570ms or 171 ticks behind
+[04Oct2025 00:18:14.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1551 chunks (36.71%), ETA: 0:09:01, Rate: 4.9 cps, Current: -120, -98
+[04Oct2025 00:18:15.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1566 chunks (37.07%), ETA: 0:08:24, Rate: 5.3 cps, Current: -118, -99
+[04Oct2025 00:18:17.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1585 chunks (37.51%), ETA: 0:07:44, Rate: 5.7 cps, Current: -118, -101
+[04Oct2025 00:18:18.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1596 chunks (37.78%), ETA: 0:07:19, Rate: 6.0 cps, Current: -115, -102
+[04Oct2025 00:18:19.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1604 chunks (37.96%), ETA: 0:07:08, Rate: 6.1 cps, Current: -117, -103
+[04Oct2025 00:18:20.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1608 chunks (38.06%), ETA: 0:07:16, Rate: 6.0 cps, Current: -119, -104
+[04Oct2025 00:18:21.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1626 chunks (38.49%), ETA: 0:06:37, Rate: 6.5 cps, Current: -119, -105
+[04Oct2025 00:18:23.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1632 chunks (38.63%), ETA: 0:05:57, Rate: 7.2 cps, Current: -111, -102
+[04Oct2025 00:18:24.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1649 chunks (39.03%), ETA: 0:05:45, Rate: 7.5 cps, Current: -110, -102
+[04Oct2025 00:18:25.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1660 chunks (39.29%), ETA: 0:05:39, Rate: 7.5 cps, Current: -113, -105
+[04Oct2025 00:18:27.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1665 chunks (39.41%), ETA: 0:05:49, Rate: 7.3 cps, Current: -109, -105
+[04Oct2025 00:18:28.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1682 chunks (39.81%), ETA: 0:05:32, Rate: 7.6 cps, Current: -107, -105
+[04Oct2025 00:18:29.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1687 chunks (39.93%), ETA: 0:05:31, Rate: 7.7 cps, Current: -106, -105
+[04Oct2025 00:18:30.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1696 chunks (40.14%), ETA: 0:05:22, Rate: 7.8 cps, Current: -105, -105
+[04Oct2025 00:18:31.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1707 chunks (40.40%), ETA: 0:05:20, Rate: 7.8 cps, Current: -118, -106
+[04Oct2025 00:18:32.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1716 chunks (40.62%), ETA: 0:05:15, Rate: 7.9 cps, Current: -103, -101
+[04Oct2025 00:18:34.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1730 chunks (40.95%), ETA: 0:05:07, Rate: 8.1 cps, Current: -101, -101
+[04Oct2025 00:18:36.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1767 chunks (41.82%), ETA: 0:04:31, Rate: 9.0 cps, Current: -113, -106
+[04Oct2025 00:19:02.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1770 chunks (41.89%), ETA: 0:22:08, Rate: 1.8 cps, Current: -110, -106
+[04Oct2025 00:19:03.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1777 chunks (42.06%), ETA: 0:25:12, Rate: 1.6 cps, Current: -97, -106
+[04Oct2025 00:19:14.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1784 chunks (42.22%), ETA: 0:31:15, Rate: 1.3 cps, Current: -150, -104
+[04Oct2025 00:19:15.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1793 chunks (42.44%), ETA: 0:21:16, Rate: 1.9 cps, Current: -119, -107
+[04Oct2025 00:19:16.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1794 chunks (42.46%), ETA: 0:22:39, Rate: 1.8 cps, Current: -149, -105
+[04Oct2025 00:19:17.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1804 chunks (42.70%), ETA: 0:17:22, Rate: 2.3 cps, Current: -117, -107
+[04Oct2025 00:19:19.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1808 chunks (42.79%), ETA: 0:17:04, Rate: 2.4 cps, Current: -148, -105
+[04Oct2025 00:19:20.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1819 chunks (43.05%), ETA: 0:14:21, Rate: 2.8 cps, Current: -111, -107
+[04Oct2025 00:19:21.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1821 chunks (43.10%), ETA: 0:14:48, Rate: 2.7 cps, Current: -147, -103
+[04Oct2025 00:19:23.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1829 chunks (43.29%), ETA: 0:13:52, Rate: 2.9 cps, Current: -146, -103
+[04Oct2025 00:19:24.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1839 chunks (43.53%), ETA: 0:12:25, Rate: 3.2 cps, Current: -109, -107
+[04Oct2025 00:19:25.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1841 chunks (43.57%), ETA: 0:12:39, Rate: 3.1 cps, Current: -145, -104
+[04Oct2025 00:19:26.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1847 chunks (43.72%), ETA: 0:12:10, Rate: 3.3 cps, Current: -145, -101
+[04Oct2025 00:19:27.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1853 chunks (43.86%), ETA: 0:11:47, Rate: 3.4 cps, Current: -144, -98
+[04Oct2025 00:19:28.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1861 chunks (44.05%), ETA: 0:11:10, Rate: 3.5 cps, Current: -144, -106
+[04Oct2025 00:19:29.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1862 chunks (44.07%), ETA: 0:11:29, Rate: 3.4 cps, Current: -143, -104
+[04Oct2025 00:19:30.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1872 chunks (44.31%), ETA: 0:10:45, Rate: 3.6 cps, Current: -104, -107
+[04Oct2025 00:19:32.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1879 chunks (44.47%), ETA: 0:10:31, Rate: 3.7 cps, Current: -142, -99
+[04Oct2025 00:19:33.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1886 chunks (44.64%), ETA: 0:10:28, Rate: 3.7 cps, Current: -142, -104
+[04Oct2025 00:19:34.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1891 chunks (44.76%), ETA: 0:07:23, Rate: 5.3 cps, Current: -141, -101
+[04Oct2025 00:19:36.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1897 chunks (44.90%), ETA: 0:07:30, Rate: 5.2 cps, Current: -140, -100
+[04Oct2025 00:19:38.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1906 chunks (45.11%), ETA: 0:07:40, Rate: 5.0 cps, Current: -139, -103
+[04Oct2025 00:19:40.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1915 chunks (45.33%), ETA: 0:07:45, Rate: 5.0 cps, Current: -138, -105
+[04Oct2025 00:19:42.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1924 chunks (45.54%), ETA: 0:07:46, Rate: 4.9 cps, Current: -137, -98
+[04Oct2025 00:19:46.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1933 chunks (45.75%), ETA: 0:08:10, Rate: 4.7 cps, Current: -151, -107
+[04Oct2025 00:19:47.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1937 chunks (45.85%), ETA: 0:08:23, Rate: 4.5 cps, Current: -151, -103
+[04Oct2025 00:19:49.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1944 chunks (46.01%), ETA: 0:08:17, Rate: 4.6 cps, Current: -136, -100
+[04Oct2025 00:19:50.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1949 chunks (46.13%), ETA: 0:08:28, Rate: 4.5 cps, Current: -135, -105
+[04Oct2025 00:19:51.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1954 chunks (46.25%), ETA: 0:08:26, Rate: 4.5 cps, Current: -134, -105
+[04Oct2025 00:19:52.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1962 chunks (46.44%), ETA: 0:08:13, Rate: 4.6 cps, Current: -134, -102
+[04Oct2025 00:19:54.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1967 chunks (46.56%), ETA: 0:08:37, Rate: 4.4 cps, Current: -133, -98
+[04Oct2025 00:19:55.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1992 chunks (47.15%), ETA: 0:07:25, Rate: 5.0 cps, Current: -130, -106
+[04Oct2025 00:19:59.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2018 chunks (47.76%), ETA: 0:07:14, Rate: 5.1 cps, Current: -132, -97
+[04Oct2025 00:20:00.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2024 chunks (47.91%), ETA: 0:07:11, Rate: 5.1 cps, Current: -138, -97
+[04Oct2025 00:20:02.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2029 chunks (48.02%), ETA: 0:07:12, Rate: 5.1 cps, Current: -143, -97
+[04Oct2025 00:20:33.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2039 chunks (48.26%), ETA: 0:02:15, Rate: 16.1 cps, Current: -149, -107
+[04Oct2025 00:20:51.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2042 chunks (48.33%), ETA: 2:12:36, Rate: 0.3 cps, Current: -146, -107
+[04Oct2025 00:20:53.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2048 chunks (48.47%), ETA: 1:04:15, Rate: 0.6 cps, Current: -142, -107
+[04Oct2025 00:20:54.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2057 chunks (48.69%), ETA: 0:37:06, Rate: 1.0 cps, Current: -150, -89
+[04Oct2025 00:20:55.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2065 chunks (48.88%), ETA: 0:27:50, Rate: 1.3 cps, Current: -150, -81
+[04Oct2025 00:20:56.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2072 chunks (49.04%), ETA: 0:23:21, Rate: 1.5 cps, Current: -150, -74
+[04Oct2025 00:20:58.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2076 chunks (49.14%), ETA: 0:22:43, Rate: 1.6 cps, Current: -150, -70
+[04Oct2025 00:20:59.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2087 chunks (49.40%), ETA: 0:18:32, Rate: 1.9 cps, Current: -149, -90
+[04Oct2025 00:21:00.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2093 chunks (49.54%), ETA: 0:17:12, Rate: 2.1 cps, Current: -149, -84
+[04Oct2025 00:21:01.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2102 chunks (49.75%), ETA: 0:15:19, Rate: 2.3 cps, Current: -149, -75
+[04Oct2025 00:21:03.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2108 chunks (49.89%), ETA: 0:14:48, Rate: 2.4 cps, Current: -149, -69
+[04Oct2025 00:21:04.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2118 chunks (50.13%), ETA: 0:05:44, Rate: 6.1 cps, Current: -148, -91
+[04Oct2025 00:21:05.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2126 chunks (50.32%), ETA: 0:05:38, Rate: 6.2 cps, Current: -148, -83
+[04Oct2025 00:21:06.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2135 chunks (50.53%), ETA: 0:05:30, Rate: 6.3 cps, Current: -148, -74
+[04Oct2025 00:21:07.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2144 chunks (50.75%), ETA: 0:05:22, Rate: 6.5 cps, Current: -147, -96
+[04Oct2025 00:21:08.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2152 chunks (50.93%), ETA: 0:05:17, Rate: 6.5 cps, Current: -147, -88
+[04Oct2025 00:21:09.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2161 chunks (51.15%), ETA: 0:05:10, Rate: 6.6 cps, Current: -147, -80
+[04Oct2025 00:21:11.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2168 chunks (51.31%), ETA: 0:05:10, Rate: 6.6 cps, Current: -147, -73
+[04Oct2025 00:21:12.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2176 chunks (51.50%), ETA: 0:05:09, Rate: 6.6 cps, Current: -146, -96
+[04Oct2025 00:21:13.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2185 chunks (51.72%), ETA: 0:05:05, Rate: 6.7 cps, Current: -130, -107
+[04Oct2025 00:21:14.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2194 chunks (51.93%), ETA: 0:04:59, Rate: 6.8 cps, Current: -146, -86
+[04Oct2025 00:21:15.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2204 chunks (52.17%), ETA: 0:04:54, Rate: 6.9 cps, Current: -146, -76
+[04Oct2025 00:21:16.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2211 chunks (52.33%), ETA: 0:04:53, Rate: 6.9 cps, Current: -146, -69
+[04Oct2025 00:21:18.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2221 chunks (52.57%), ETA: 0:04:52, Rate: 6.8 cps, Current: -145, -90
+[04Oct2025 00:21:19.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2230 chunks (52.78%), ETA: 0:04:50, Rate: 6.9 cps, Current: -145, -81
+[04Oct2025 00:21:20.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2239 chunks (52.99%), ETA: 0:04:47, Rate: 6.9 cps, Current: -145, -72
+[04Oct2025 00:21:21.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2248 chunks (53.21%), ETA: 0:04:44, Rate: 6.9 cps, Current: -144, -94
+[04Oct2025 00:21:23.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2255 chunks (53.37%), ETA: 0:04:42, Rate: 7.0 cps, Current: -144, -87
+[04Oct2025 00:21:24.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2262 chunks (53.54%), ETA: 0:04:44, Rate: 6.9 cps, Current: -144, -80
+[04Oct2025 00:21:25.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2270 chunks (53.73%), ETA: 0:04:42, Rate: 6.9 cps, Current: -144, -72
+[04Oct2025 00:21:26.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2276 chunks (53.87%), ETA: 0:04:41, Rate: 6.9 cps, Current: -144, -66
+[04Oct2025 00:21:27.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2286 chunks (54.11%), ETA: 0:04:26, Rate: 7.3 cps, Current: -143, -87
+[04Oct2025 00:21:28.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2293 chunks (54.27%), ETA: 0:04:28, Rate: 7.2 cps, Current: -143, -80
+[04Oct2025 00:21:29.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2300 chunks (54.44%), ETA: 0:04:29, Rate: 7.2 cps, Current: -143, -73
+[04Oct2025 00:21:30.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2310 chunks (54.67%), ETA: 0:04:22, Rate: 7.3 cps, Current: -142, -94
+[04Oct2025 00:21:32.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2318 chunks (54.86%), ETA: 0:04:17, Rate: 7.4 cps, Current: -142, -86
+[04Oct2025 00:21:33.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2327 chunks (55.08%), ETA: 0:04:16, Rate: 7.4 cps, Current: -142, -77
+[04Oct2025 00:21:34.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2337 chunks (55.31%), ETA: 0:04:15, Rate: 7.4 cps, Current: -142, -67
+[04Oct2025 00:21:35.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2344 chunks (55.48%), ETA: 0:04:15, Rate: 7.4 cps, Current: -141, -91
+[04Oct2025 00:21:36.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2350 chunks (55.62%), ETA: 0:04:16, Rate: 7.3 cps, Current: -141, -85
+[04Oct2025 00:21:37.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2360 chunks (55.86%), ETA: 0:04:19, Rate: 7.2 cps, Current: -141, -75
+[04Oct2025 00:21:39.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2373 chunks (56.17%), ETA: 0:04:12, Rate: 7.3 cps, Current: -140, -95
+[04Oct2025 00:21:40.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2381 chunks (56.36%), ETA: 0:04:10, Rate: 7.3 cps, Current: -140, -87
+[04Oct2025 00:21:41.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2389 chunks (56.54%), ETA: 0:04:08, Rate: 7.4 cps, Current: -140, -79
+[04Oct2025 00:21:42.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2397 chunks (56.73%), ETA: 0:04:07, Rate: 7.4 cps, Current: -140, -71
+[04Oct2025 00:21:43.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2406 chunks (56.95%), ETA: 0:04:04, Rate: 7.4 cps, Current: -139, -93
+[04Oct2025 00:21:44.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2413 chunks (57.11%), ETA: 0:04:06, Rate: 7.4 cps, Current: -139, -86
+[04Oct2025 00:21:45.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2419 chunks (57.25%), ETA: 0:04:08, Rate: 7.3 cps, Current: -139, -80
+[04Oct2025 00:21:46.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2427 chunks (57.44%), ETA: 0:04:07, Rate: 7.3 cps, Current: -139, -72
+[04Oct2025 00:21:47.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2433 chunks (57.59%), ETA: 0:04:07, Rate: 7.2 cps, Current: -138, -96
+[04Oct2025 00:21:48.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2443 chunks (57.82%), ETA: 0:04:03, Rate: 7.3 cps, Current: -138, -87
+[04Oct2025 00:21:49.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2450 chunks (57.99%), ETA: 0:04:03, Rate: 7.3 cps, Current: -138, -80
+[04Oct2025 00:21:50.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2463 chunks (58.30%), ETA: 0:03:57, Rate: 7.4 cps, Current: -138, -67
+[04Oct2025 00:21:52.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2470 chunks (58.46%), ETA: 0:03:56, Rate: 7.4 cps, Current: -137, -91
+[04Oct2025 00:21:53.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2477 chunks (58.63%), ETA: 0:03:55, Rate: 7.4 cps, Current: -137, -84
+[04Oct2025 00:21:54.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2488 chunks (58.89%), ETA: 0:03:53, Rate: 7.4 cps, Current: -137, -73
+[04Oct2025 00:21:55.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2502 chunks (59.22%), ETA: 0:03:43, Rate: 7.7 cps, Current: -136, -94
+[04Oct2025 00:21:56.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2528 chunks (59.83%), ETA: 0:03:23, Rate: 8.3 cps, Current: -136, -67
+[04Oct2025 00:21:57.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2554 chunks (60.45%), ETA: 0:03:05, Rate: 9.0 cps, Current: -135, -74
+[04Oct2025 00:21:58.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2591 chunks (61.33%), ETA: 0:02:42, Rate: 10.1 cps, Current: -134, -72
+[04Oct2025 00:21:59.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2686 chunks (63.57%), ETA: 0:01:59, Rate: 12.9 cps, Current: -132, -94
+[04Oct2025 00:22:01.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2763 chunks (65.40%), ETA: 0:01:37, Rate: 15.0 cps, Current: -151, -79
+[04Oct2025 00:22:11.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2764 chunks (65.42%), ETA: 0:01:56, Rate: 12.6 cps, Current: -133, -65
+[04Oct2025 00:22:13.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2771 chunks (65.59%), ETA: 0:01:58, Rate: 12.2 cps, Current: -140, -65
+[04Oct2025 00:22:17.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2779 chunks (65.78%), ETA: 0:02:03, Rate: 11.7 cps, Current: -148, -65
+[04Oct2025 00:22:19.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2780 chunks (65.80%), ETA: 0:02:10, Rate: 11.0 cps, Current: -149, -65
+[04Oct2025 00:22:27.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2781 chunks (65.82%), ETA: 0:03:06, Rate: 7.7 cps, Current: -150, -65
+[04Oct2025 00:22:38.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2784 chunks (65.89%), ETA: 0:30:20, Rate: 0.8 cps, Current: -151, -78
+[04Oct2025 00:22:39.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2788 chunks (65.99%), ETA: 0:26:26, Rate: 0.9 cps, Current: -151, -74
+[04Oct2025 00:22:40.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2791 chunks (66.06%), ETA: 0:24:39, Rate: 1.0 cps, Current: -151, -71
+[04Oct2025 00:22:41.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2795 chunks (66.15%), ETA: 0:27:06, Rate: 0.9 cps, Current: -151, -69
+[04Oct2025 00:22:42.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2796 chunks (66.18%), ETA: 0:27:03, Rate: 0.9 cps, Current: -150, -62
+[04Oct2025 00:22:44.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2802 chunks (66.32%), ETA: 0:26:43, Rate: 0.9 cps, Current: -150, -58
+[04Oct2025 00:22:45.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2808 chunks (66.46%), ETA: 0:22:16, Rate: 1.1 cps, Current: -150, -52
+[04Oct2025 00:22:46.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2812 chunks (66.56%), ETA: 0:20:31, Rate: 1.1 cps, Current: -150, -48
+[04Oct2025 00:22:47.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2818 chunks (66.70%), ETA: 0:16:53, Rate: 1.4 cps, Current: -150, -46
+[04Oct2025 00:22:49.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2825 chunks (66.86%), ETA: 0:14:52, Rate: 1.6 cps, Current: -149, -58
+[04Oct2025 00:22:50.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2831 chunks (67.01%), ETA: 0:10:27, Rate: 2.2 cps, Current: -149, -52
+[04Oct2025 00:22:51.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2835 chunks (67.10%), ETA: 0:10:07, Rate: 2.3 cps, Current: -149, -48
+[04Oct2025 00:22:52.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2843 chunks (67.29%), ETA: 0:09:09, Rate: 2.5 cps, Current: -148, -61
+[04Oct2025 00:22:53.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2848 chunks (67.41%), ETA: 0:08:50, Rate: 2.6 cps, Current: -151, -64
+[04Oct2025 00:22:54.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2855 chunks (67.57%), ETA: 0:08:18, Rate: 2.8 cps, Current: -148, -50
+[04Oct2025 00:22:55.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2861 chunks (67.72%), ETA: 0:07:58, Rate: 2.9 cps, Current: -148, -44
+[04Oct2025 00:22:56.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2867 chunks (67.86%), ETA: 0:07:39, Rate: 3.0 cps, Current: -147, -60
+[04Oct2025 00:22:57.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2873 chunks (68.00%), ETA: 0:04:53, Rate: 4.6 cps, Current: -147, -54
+[04Oct2025 00:22:58.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2878 chunks (68.12%), ETA: 0:04:52, Rate: 4.6 cps, Current: -147, -49
+[04Oct2025 00:23:00.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2885 chunks (68.28%), ETA: 0:04:48, Rate: 4.6 cps, Current: -146, -62
+[04Oct2025 00:23:01.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2893 chunks (68.47%), ETA: 0:04:39, Rate: 4.8 cps, Current: -146, -56
+[04Oct2025 00:23:02.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2899 chunks (68.62%), ETA: 0:04:36, Rate: 4.8 cps, Current: -146, -50
+[04Oct2025 00:23:03.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2906 chunks (68.78%), ETA: 0:04:30, Rate: 4.9 cps, Current: -144, -64
+[04Oct2025 00:23:04.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2911 chunks (68.90%), ETA: 0:04:30, Rate: 4.9 cps, Current: -145, -60
+[04Oct2025 00:23:05.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2917 chunks (69.04%), ETA: 0:04:27, Rate: 4.9 cps, Current: -145, -54
+[04Oct2025 00:23:06.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2922 chunks (69.16%), ETA: 0:04:26, Rate: 4.9 cps, Current: -145, -49
+[04Oct2025 00:23:07.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2928 chunks (69.30%), ETA: 0:04:23, Rate: 4.9 cps, Current: -145, -44
+[04Oct2025 00:23:08.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2936 chunks (69.49%), ETA: 0:04:14, Rate: 5.1 cps, Current: -144, -56
+[04Oct2025 00:23:09.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2943 chunks (69.66%), ETA: 0:04:05, Rate: 5.2 cps, Current: -144, -49
+[04Oct2025 00:23:11.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2951 chunks (69.85%), ETA: 0:03:59, Rate: 5.3 cps, Current: -143, -62
+[04Oct2025 00:23:12.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2958 chunks (70.01%), ETA: 0:03:48, Rate: 5.5 cps, Current: -143, -57
+[04Oct2025 00:23:13.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2964 chunks (70.15%), ETA: 0:03:47, Rate: 5.6 cps, Current: -143, -52
+[04Oct2025 00:23:14.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2972 chunks (70.34%), ETA: 0:03:41, Rate: 5.7 cps, Current: -143, -46
+[04Oct2025 00:23:15.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2977 chunks (70.46%), ETA: 0:03:37, Rate: 5.7 cps, Current: -142, -60
+[04Oct2025 00:23:16.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2983 chunks (70.60%), ETA: 0:03:36, Rate: 5.7 cps, Current: -142, -54
+[04Oct2025 00:23:17.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2989 chunks (70.75%), ETA: 0:03:35, Rate: 5.7 cps, Current: -142, -48
+[04Oct2025 00:23:18.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 2999 chunks (70.98%), ETA: 0:03:28, Rate: 5.9 cps, Current: -141, -60
+[04Oct2025 00:23:22.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3005 chunks (71.12%), ETA: 0:03:42, Rate: 5.5 cps, Current: -141, -54
+[04Oct2025 00:23:23.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3010 chunks (71.24%), ETA: 0:03:45, Rate: 5.4 cps, Current: -141, -49
+[04Oct2025 00:23:24.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3018 chunks (71.43%), ETA: 0:03:42, Rate: 5.4 cps, Current: -140, -62
+[04Oct2025 00:23:25.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3025 chunks (71.60%), ETA: 0:03:39, Rate: 5.5 cps, Current: -140, -55
+[04Oct2025 00:23:27.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3031 chunks (71.74%), ETA: 0:03:40, Rate: 5.4 cps, Current: -140, -51
+[04Oct2025 00:23:28.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3041 chunks (71.98%), ETA: 0:03:31, Rate: 5.6 cps, Current: -139, -62
+[04Oct2025 00:23:29.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3047 chunks (72.12%), ETA: 0:03:29, Rate: 5.6 cps, Current: -139, -56
+[04Oct2025 00:23:30.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3053 chunks (72.26%), ETA: 0:03:31, Rate: 5.5 cps, Current: -139, -50
+[04Oct2025 00:23:31.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3060 chunks (72.43%), ETA: 0:03:29, Rate: 5.6 cps, Current: -139, -45
+[04Oct2025 00:23:32.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3065 chunks (72.54%), ETA: 0:03:30, Rate: 5.5 cps, Current: -138, -60
+[04Oct2025 00:23:33.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3070 chunks (72.66%), ETA: 0:03:28, Rate: 5.5 cps, Current: -138, -56
+[04Oct2025 00:23:34.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3079 chunks (72.88%), ETA: 0:03:23, Rate: 5.6 cps, Current: -138, -47
+[04Oct2025 00:23:35.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3086 chunks (73.04%), ETA: 0:03:22, Rate: 5.6 cps, Current: -137, -61
+[04Oct2025 00:23:37.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3095 chunks (73.25%), ETA: 0:03:19, Rate: 5.7 cps, Current: -137, -52
+[04Oct2025 00:23:38.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3104 chunks (73.47%), ETA: 0:03:18, Rate: 5.7 cps, Current: -137, -46
+[04Oct2025 00:23:39.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3111 chunks (73.63%), ETA: 0:03:16, Rate: 5.7 cps, Current: -136, -58
+[04Oct2025 00:23:40.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3119 chunks (73.82%), ETA: 0:03:12, Rate: 5.7 cps, Current: -136, -50
+[04Oct2025 00:23:41.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3128 chunks (74.04%), ETA: 0:03:08, Rate: 5.8 cps, Current: -136, -44
+[04Oct2025 00:23:42.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3133 chunks (74.15%), ETA: 0:03:07, Rate: 5.8 cps, Current: -135, -59
+[04Oct2025 00:23:43.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3138 chunks (74.27%), ETA: 0:03:10, Rate: 5.7 cps, Current: -135, -54
+[04Oct2025 00:23:44.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3148 chunks (74.51%), ETA: 0:03:02, Rate: 5.9 cps, Current: -135, -47
+[04Oct2025 00:23:46.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3152 chunks (74.60%), ETA: 0:03:05, Rate: 5.8 cps, Current: -135, -44
+[04Oct2025 00:23:47.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3156 chunks (74.70%), ETA: 0:03:06, Rate: 5.7 cps, Current: -134, -57
+[04Oct2025 00:23:48.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3169 chunks (75.01%), ETA: 0:03:00, Rate: 5.8 cps, Current: -134, -49
+[04Oct2025 00:23:49.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3177 chunks (75.20%), ETA: 0:02:45, Rate: 6.3 cps, Current: -133, -59
+[04Oct2025 00:23:50.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3184 chunks (75.36%), ETA: 0:02:44, Rate: 6.3 cps, Current: -133, -52
+[04Oct2025 00:23:51.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3194 chunks (75.60%), ETA: 0:02:41, Rate: 6.4 cps, Current: -133, -45
+[04Oct2025 00:23:52.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3200 chunks (75.74%), ETA: 0:02:38, Rate: 6.5 cps, Current: -132, -57
+[04Oct2025 00:23:54.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3213 chunks (76.05%), ETA: 0:02:32, Rate: 6.6 cps, Current: -132, -47
+[04Oct2025 00:23:55.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3219 chunks (76.19%), ETA: 0:02:34, Rate: 6.5 cps, Current: -131, -59
+[04Oct2025 00:23:56.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3225 chunks (76.33%), ETA: 0:02:32, Rate: 6.5 cps, Current: -131, -53
+[04Oct2025 00:23:58.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3229 chunks (76.43%), ETA: 0:02:37, Rate: 6.3 cps, Current: -131, -49
+[04Oct2025 00:23:59.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3239 chunks (76.66%), ETA: 0:02:32, Rate: 6.5 cps, Current: -130, -60
+[04Oct2025 00:24:00.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3245 chunks (76.80%), ETA: 0:02:32, Rate: 6.4 cps, Current: -130, -54
+[04Oct2025 00:24:01.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3251 chunks (76.95%), ETA: 0:02:32, Rate: 6.4 cps, Current: -130, -49
+[04Oct2025 00:24:02.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3260 chunks (77.16%), ETA: 0:02:28, Rate: 6.5 cps, Current: -129, -61
+[04Oct2025 00:24:04.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3267 chunks (77.33%), ETA: 0:02:31, Rate: 6.3 cps, Current: -129, -55
+[04Oct2025 00:24:05.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3274 chunks (77.49%), ETA: 0:02:30, Rate: 6.3 cps, Current: -129, -50
+[04Oct2025 00:24:06.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3282 chunks (77.68%), ETA: 0:02:28, Rate: 6.3 cps, Current: -129, -45
+[04Oct2025 00:24:07.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3289 chunks (77.85%), ETA: 0:02:28, Rate: 6.3 cps, Current: -128, -56
+[04Oct2025 00:24:09.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3300 chunks (78.11%), ETA: 0:02:25, Rate: 6.3 cps, Current: -128, -48
+[04Oct2025 00:24:10.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3308 chunks (78.30%), ETA: 0:02:27, Rate: 6.2 cps, Current: -127, -58
+[04Oct2025 00:24:12.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3314 chunks (78.44%), ETA: 0:02:27, Rate: 6.2 cps, Current: -127, -52
+[04Oct2025 00:24:13.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3322 chunks (78.63%), ETA: 0:02:23, Rate: 6.3 cps, Current: -127, -47
+[04Oct2025 00:24:14.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3328 chunks (78.77%), ETA: 0:02:25, Rate: 6.2 cps, Current: -126, -60
+[04Oct2025 00:24:15.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3335 chunks (78.93%), ETA: 0:02:22, Rate: 6.3 cps, Current: -126, -53
+[04Oct2025 00:24:16.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3344 chunks (79.15%), ETA: 0:02:16, Rate: 6.4 cps, Current: -126, -47
+[04Oct2025 00:24:17.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3351 chunks (79.31%), ETA: 0:02:20, Rate: 6.2 cps, Current: -125, -58
+[04Oct2025 00:24:18.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3355 chunks (79.41%), ETA: 0:02:20, Rate: 6.2 cps, Current: -125, -54
+[04Oct2025 00:24:21.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3356 chunks (79.43%), ETA: 0:02:37, Rate: 5.5 cps, Current: -125, -53
+[04Oct2025 00:24:22.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3362 chunks (79.57%), ETA: 0:02:36, Rate: 5.5 cps, Current: -125, -47
+[04Oct2025 00:24:23.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3369 chunks (79.74%), ETA: 0:02:39, Rate: 5.4 cps, Current: -124, -61
+[04Oct2025 00:24:24.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3375 chunks (79.88%), ETA: 0:02:38, Rate: 5.3 cps, Current: -124, -55
+[04Oct2025 00:24:26.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3379 chunks (79.98%), ETA: 0:02:40, Rate: 5.3 cps, Current: -124, -51
+[04Oct2025 00:24:27.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3388 chunks (80.19%), ETA: 0:02:34, Rate: 5.4 cps, Current: -124, -48
+[04Oct2025 00:24:28.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3394 chunks (80.33%), ETA: 0:02:37, Rate: 5.3 cps, Current: -124, -44
+[04Oct2025 00:24:30.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3402 chunks (80.52%), ETA: 0:02:33, Rate: 5.4 cps, Current: -123, -54
+[04Oct2025 00:24:31.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3410 chunks (80.71%), ETA: 0:02:29, Rate: 5.5 cps, Current: -123, -49
+[04Oct2025 00:24:32.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3417 chunks (80.88%), ETA: 0:02:30, Rate: 5.4 cps, Current: -122, -60
+[04Oct2025 00:24:33.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3424 chunks (81.04%), ETA: 0:02:26, Rate: 5.5 cps, Current: -122, -53
+[04Oct2025 00:24:34.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3433 chunks (81.25%), ETA: 0:02:22, Rate: 5.5 cps, Current: -122, -47
+[04Oct2025 00:24:35.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3440 chunks (81.42%), ETA: 0:02:23, Rate: 5.5 cps, Current: -121, -59
+[04Oct2025 00:24:36.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3447 chunks (81.59%), ETA: 0:02:22, Rate: 5.5 cps, Current: -121, -52
+[04Oct2025 00:24:38.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3454 chunks (81.75%), ETA: 0:02:21, Rate: 5.4 cps, Current: -121, -48
+[04Oct2025 00:24:39.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3460 chunks (81.89%), ETA: 0:02:21, Rate: 5.4 cps, Current: -120, -60
+[04Oct2025 00:24:40.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3466 chunks (82.04%), ETA: 0:02:21, Rate: 5.4 cps, Current: -120, -55
+[04Oct2025 00:24:41.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3478 chunks (82.32%), ETA: 0:02:13, Rate: 5.6 cps, Current: -120, -46
+[04Oct2025 00:24:43.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3485 chunks (82.49%), ETA: 0:02:16, Rate: 5.4 cps, Current: -119, -59
+[04Oct2025 00:24:44.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3491 chunks (82.63%), ETA: 0:02:15, Rate: 5.4 cps, Current: -119, -53
+[04Oct2025 00:24:45.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3499 chunks (82.82%), ETA: 0:02:11, Rate: 5.5 cps, Current: -119, -48
+[04Oct2025 00:24:46.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3504 chunks (82.93%), ETA: 0:02:15, Rate: 5.3 cps, Current: -118, -61
+[04Oct2025 00:24:47.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3510 chunks (83.08%), ETA: 0:02:13, Rate: 5.4 cps, Current: -118, -55
+[04Oct2025 00:24:48.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3514 chunks (83.17%), ETA: 0:02:02, Rate: 5.8 cps, Current: -139, -43
+[04Oct2025 00:24:49.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3522 chunks (83.36%), ETA: 0:01:59, Rate: 5.9 cps, Current: -131, -43
+[04Oct2025 00:24:50.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3530 chunks (83.55%), ETA: 0:01:57, Rate: 5.9 cps, Current: -123, -43
+[04Oct2025 00:24:52.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3539 chunks (83.76%), ETA: 0:01:53, Rate: 6.0 cps, Current: -118, -50
+[04Oct2025 00:24:53.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3550 chunks (84.02%), ETA: 0:01:50, Rate: 6.1 cps, Current: -117, -58
+[04Oct2025 00:24:53.414] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DrPingaFloja moved too quickly! 7.889659644335552,-1.938148242570911,-6.195601006020979
+[04Oct2025 00:24:53.444] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6959ms or 139 ticks behind
+[04Oct2025 00:24:54.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3562 chunks (84.31%), ETA: 0:01:44, Rate: 6.4 cps, Current: -114, -63
+[04Oct2025 00:24:55.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3568 chunks (84.45%), ETA: 0:01:41, Rate: 6.5 cps, Current: -117, -49
+[04Oct2025 00:24:56.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3573 chunks (84.57%), ETA: 0:01:42, Rate: 6.3 cps, Current: -116, -61
+[04Oct2025 00:24:57.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3579 chunks (84.71%), ETA: 0:01:41, Rate: 6.4 cps, Current: -116, -55
+[04Oct2025 00:24:59.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3587 chunks (84.90%), ETA: 0:01:39, Rate: 6.4 cps, Current: -116, -50
+[04Oct2025 00:25:00.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3593 chunks (85.04%), ETA: 0:01:40, Rate: 6.3 cps, Current: -115, -61
+[04Oct2025 00:25:01.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3598 chunks (85.16%), ETA: 0:01:39, Rate: 6.3 cps, Current: -115, -56
+[04Oct2025 00:25:02.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3603 chunks (85.28%), ETA: 0:01:39, Rate: 6.2 cps, Current: -115, -51
+[04Oct2025 00:25:03.218] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-111, -60], pos: BlockPos{x=-1776, y=65, z=-948}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / biomeswevegone:swamp_grass_block_delta]
+[04Oct2025 00:25:03.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3612 chunks (85.49%), ETA: 0:01:38, Rate: 6.2 cps, Current: -114, -61
+[04Oct2025 00:25:04.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3620 chunks (85.68%), ETA: 0:01:36, Rate: 6.2 cps, Current: -114, -56
+[04Oct2025 00:25:08.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3621 chunks (85.70%), ETA: 0:01:47, Rate: 5.6 cps, Current: -114, -55
+[04Oct2025 00:25:09.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3632 chunks (85.96%), ETA: 0:01:42, Rate: 5.8 cps, Current: -114, -47
+[04Oct2025 00:25:10.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3639 chunks (86.13%), ETA: 0:01:44, Rate: 5.6 cps, Current: -113, -58
+[04Oct2025 00:25:12.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3646 chunks (86.30%), ETA: 0:01:42, Rate: 5.6 cps, Current: -113, -52
+[04Oct2025 00:25:13.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3656 chunks (86.53%), ETA: 0:01:38, Rate: 5.8 cps, Current: -113, -45
+[04Oct2025 00:25:14.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3662 chunks (86.67%), ETA: 0:01:37, Rate: 5.8 cps, Current: -112, -57
+[04Oct2025 00:25:15.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3670 chunks (86.86%), ETA: 0:01:36, Rate: 5.8 cps, Current: -112, -49
+[04Oct2025 00:25:16.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3679 chunks (87.08%), ETA: 0:01:32, Rate: 5.9 cps, Current: -111, -61
+[04Oct2025 00:25:17.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3685 chunks (87.22%), ETA: 0:01:30, Rate: 5.9 cps, Current: -111, -55
+[04Oct2025 00:25:19.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3691 chunks (87.36%), ETA: 0:01:32, Rate: 5.8 cps, Current: -111, -49
+[04Oct2025 00:25:20.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3703 chunks (87.64%), ETA: 0:01:28, Rate: 5.9 cps, Current: -110, -58
+[04Oct2025 00:25:21.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3710 chunks (87.81%), ETA: 0:01:29, Rate: 5.8 cps, Current: -110, -51
+[04Oct2025 00:25:23.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3722 chunks (88.09%), ETA: 0:01:27, Rate: 5.8 cps, Current: -109, -60
+[04Oct2025 00:25:24.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3727 chunks (88.21%), ETA: 0:01:30, Rate: 5.5 cps, Current: -109, -55
+[04Oct2025 00:25:25.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3735 chunks (88.40%), ETA: 0:01:26, Rate: 5.6 cps, Current: -109, -47
+[04Oct2025 00:25:26.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3743 chunks (88.59%), ETA: 0:01:24, Rate: 5.7 cps, Current: -108, -58
+[04Oct2025 00:25:28.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3748 chunks (88.71%), ETA: 0:01:24, Rate: 5.6 cps, Current: -108, -53
+[04Oct2025 00:25:29.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3756 chunks (88.90%), ETA: 0:01:22, Rate: 5.7 cps, Current: -108, -45
+[04Oct2025 00:25:30.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3762 chunks (89.04%), ETA: 0:01:21, Rate: 5.7 cps, Current: -107, -57
+[04Oct2025 00:25:31.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3768 chunks (89.18%), ETA: 0:01:20, Rate: 5.7 cps, Current: -107, -51
+[04Oct2025 00:25:32.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3774 chunks (89.33%), ETA: 0:01:20, Rate: 5.6 cps, Current: -107, -45
+[04Oct2025 00:25:33.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3783 chunks (89.54%), ETA: 0:01:18, Rate: 5.7 cps, Current: -106, -56
+[04Oct2025 00:25:35.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3788 chunks (89.66%), ETA: 0:01:10, Rate: 6.2 cps, Current: -106, -51
+[04Oct2025 00:25:36.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3796 chunks (89.85%), ETA: 0:01:08, Rate: 6.3 cps, Current: -105, -64
+[04Oct2025 00:25:37.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3802 chunks (89.99%), ETA: 0:01:07, Rate: 6.2 cps, Current: -105, -58
+[04Oct2025 00:25:38.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3808 chunks (90.13%), ETA: 0:01:08, Rate: 6.1 cps, Current: -105, -52
+[04Oct2025 00:25:39.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3813 chunks (90.25%), ETA: 0:01:08, Rate: 6.0 cps, Current: -105, -47
+[04Oct2025 00:25:40.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3819 chunks (90.39%), ETA: 0:01:06, Rate: 6.1 cps, Current: -104, -62
+[04Oct2025 00:25:41.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3829 chunks (90.63%), ETA: 0:01:04, Rate: 6.2 cps, Current: -104, -52
+[04Oct2025 00:25:42.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3836 chunks (90.79%), ETA: 0:01:04, Rate: 6.1 cps, Current: -104, -45
+[04Oct2025 00:25:44.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3843 chunks (90.96%), ETA: 0:01:03, Rate: 6.0 cps, Current: -103, -59
+[04Oct2025 00:25:45.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3849 chunks (91.10%), ETA: 0:01:04, Rate: 5.8 cps, Current: -103, -53
+[04Oct2025 00:25:46.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3855 chunks (91.24%), ETA: 0:01:02, Rate: 5.9 cps, Current: -103, -47
+[04Oct2025 00:25:47.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3861 chunks (91.38%), ETA: 0:01:01, Rate: 5.9 cps, Current: -102, -62
+[04Oct2025 00:25:48.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3868 chunks (91.55%), ETA: 0:00:59, Rate: 6.0 cps, Current: -102, -55
+[04Oct2025 00:25:50.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3875 chunks (91.72%), ETA: 0:00:59, Rate: 5.9 cps, Current: -102, -48
+[04Oct2025 00:25:51.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3881 chunks (91.86%), ETA: 0:00:58, Rate: 5.9 cps, Current: -101, -63
+[04Oct2025 00:25:52.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3887 chunks (92.00%), ETA: 0:00:58, Rate: 5.7 cps, Current: -101, -57
+[04Oct2025 00:25:53.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3891 chunks (92.09%), ETA: 0:00:58, Rate: 5.7 cps, Current: -101, -53
+[04Oct2025 00:25:54.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3898 chunks (92.26%), ETA: 0:00:56, Rate: 5.8 cps, Current: -101, -46
+[04Oct2025 00:25:55.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3904 chunks (92.40%), ETA: 0:00:55, Rate: 5.7 cps, Current: -100, -61
+[04Oct2025 00:25:56.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3914 chunks (92.64%), ETA: 0:00:53, Rate: 5.8 cps, Current: -100, -51
+[04Oct2025 00:25:57.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3919 chunks (92.76%), ETA: 0:00:52, Rate: 5.8 cps, Current: -100, -46
+[04Oct2025 00:25:58.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3924 chunks (92.88%), ETA: 0:00:52, Rate: 5.7 cps, Current: -99, -62
+[04Oct2025 00:25:59.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3929 chunks (92.99%), ETA: 0:00:51, Rate: 5.7 cps, Current: -99, -57
+[04Oct2025 00:26:00.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3935 chunks (93.14%), ETA: 0:00:50, Rate: 5.7 cps, Current: -99, -51
+[04Oct2025 00:26:02.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3941 chunks (93.28%), ETA: 0:00:49, Rate: 5.7 cps, Current: -99, -45
+[04Oct2025 00:26:03.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3950 chunks (93.49%), ETA: 0:00:48, Rate: 5.7 cps, Current: -98, -57
+[04Oct2025 00:26:04.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3957 chunks (93.66%), ETA: 0:00:46, Rate: 5.7 cps, Current: -98, -50
+[04Oct2025 00:26:05.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3964 chunks (93.82%), ETA: 0:00:45, Rate: 5.7 cps, Current: -97, -64
+[04Oct2025 00:26:06.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3968 chunks (93.92%), ETA: 0:00:45, Rate: 5.6 cps, Current: -97, -63
+[04Oct2025 00:26:07.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3974 chunks (94.06%), ETA: 0:00:44, Rate: 5.7 cps, Current: -97, -57
+[04Oct2025 00:26:08.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3979 chunks (94.18%), ETA: 0:00:43, Rate: 5.7 cps, Current: -97, -52
+[04Oct2025 00:26:09.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3984 chunks (94.30%), ETA: 0:00:42, Rate: 5.7 cps, Current: -97, -47
+[04Oct2025 00:26:10.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3989 chunks (94.41%), ETA: 0:00:42, Rate: 5.6 cps, Current: -96, -63
+[04Oct2025 00:26:12.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 3997 chunks (94.60%), ETA: 0:00:41, Rate: 5.5 cps, Current: -96, -55
+[04Oct2025 00:26:23.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4005 chunks (94.79%), ETA: 0:01:00, Rate: 3.7 cps, Current: -96, -47
+[04Oct2025 00:26:25.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4010 chunks (94.91%), ETA: 0:00:59, Rate: 3.6 cps, Current: -95, -63
+[04Oct2025 00:26:26.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4015 chunks (95.03%), ETA: 0:01:00, Rate: 3.4 cps, Current: -95, -58
+[04Oct2025 00:26:27.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4020 chunks (95.15%), ETA: 0:00:59, Rate: 3.5 cps, Current: -95, -53
+[04Oct2025 00:26:28.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4026 chunks (95.29%), ETA: 0:00:56, Rate: 3.5 cps, Current: -95, -47
+[04Oct2025 00:26:29.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4033 chunks (95.46%), ETA: 0:00:54, Rate: 3.5 cps, Current: -94, -61
+[04Oct2025 00:26:30.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4038 chunks (95.57%), ETA: 0:00:53, Rate: 3.5 cps, Current: -94, -56
+[04Oct2025 00:26:31.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4046 chunks (95.76%), ETA: 0:00:50, Rate: 3.6 cps, Current: -94, -48
+[04Oct2025 00:26:32.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4052 chunks (95.91%), ETA: 0:00:49, Rate: 3.5 cps, Current: -93, -63
+[04Oct2025 00:26:34.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4058 chunks (96.05%), ETA: 0:00:48, Rate: 3.5 cps, Current: -93, -57
+[04Oct2025 00:26:35.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4062 chunks (96.14%), ETA: 0:00:48, Rate: 3.4 cps, Current: -93, -53
+[04Oct2025 00:26:36.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4068 chunks (96.28%), ETA: 0:00:45, Rate: 3.4 cps, Current: -114, -43
+[04Oct2025 00:26:37.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4075 chunks (96.45%), ETA: 0:00:43, Rate: 3.4 cps, Current: -92, -62
+[04Oct2025 00:26:38.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4083 chunks (96.64%), ETA: 0:00:40, Rate: 3.5 cps, Current: -92, -55
+[04Oct2025 00:26:39.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4091 chunks (96.83%), ETA: 0:00:36, Rate: 3.6 cps, Current: -92, -47
+[04Oct2025 00:26:40.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4096 chunks (96.95%), ETA: 0:00:35, Rate: 3.6 cps, Current: -91, -63
+[04Oct2025 00:26:41.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4101 chunks (97.07%), ETA: 0:00:34, Rate: 3.6 cps, Current: -91, -58
+[04Oct2025 00:26:42.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4107 chunks (97.21%), ETA: 0:00:21, Rate: 5.5 cps, Current: -91, -52
+[04Oct2025 00:26:43.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4112 chunks (97.33%), ETA: 0:00:20, Rate: 5.4 cps, Current: -91, -47
+[04Oct2025 00:26:45.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4117 chunks (97.44%), ETA: 0:00:20, Rate: 5.3 cps, Current: -90, -63
+[04Oct2025 00:26:46.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4120 chunks (97.51%), ETA: 0:00:20, Rate: 5.2 cps, Current: -90, -60
+[04Oct2025 00:26:47.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4129 chunks (97.73%), ETA: 0:00:18, Rate: 5.2 cps, Current: -90, -52
+[04Oct2025 00:26:48.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4137 chunks (97.92%), ETA: 0:00:16, Rate: 5.3 cps, Current: -105, -43
+[04Oct2025 00:26:49.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4144 chunks (98.08%), ETA: 0:00:15, Rate: 5.4 cps, Current: -98, -43
+[04Oct2025 00:26:50.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4152 chunks (98.27%), ETA: 0:00:13, Rate: 5.5 cps, Current: -91, -43
+[04Oct2025 00:26:52.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4159 chunks (98.44%), ETA: 0:00:11, Rate: 5.5 cps, Current: -89, -64
+[04Oct2025 00:26:53.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4167 chunks (98.63%), ETA: 0:00:10, Rate: 5.6 cps, Current: -89, -57
+[04Oct2025 00:26:54.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DrPingaFloja moved too quickly! -5.221057628347808,1.8245767040478995,8.43258178247902
+[04Oct2025 00:26:54.075] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7390ms or 147 ticks behind
+[04Oct2025 00:26:54.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4174 chunks (98.79%), ETA: 0:00:09, Rate: 5.6 cps, Current: -89, -50
+[04Oct2025 00:26:56.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4178 chunks (98.89%), ETA: 0:00:08, Rate: 5.5 cps, Current: -89, -46
+[04Oct2025 00:26:57.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4184 chunks (99.03%), ETA: 0:00:07, Rate: 5.4 cps, Current: -88, -61
+[04Oct2025 00:26:58.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4194 chunks (99.27%), ETA: 0:00:05, Rate: 5.6 cps, Current: -88, -51
+[04Oct2025 00:26:59.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4201 chunks (99.43%), ETA: 0:00:04, Rate: 5.6 cps, Current: -88, -44
+[04Oct2025 00:27:01.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4208 chunks (99.60%), ETA: 0:00:03, Rate: 5.6 cps, Current: -87, -60
+[04Oct2025 00:27:02.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4213 chunks (99.72%), ETA: 0:00:02, Rate: 5.6 cps, Current: -87, -55
+[04Oct2025 00:27:03.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4216 chunks (99.79%), ETA: 0:00:01, Rate: 5.5 cps, Current: -87, -52
+[04Oct2025 00:27:04.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4221 chunks (99.91%), ETA: 0:00:00, Rate: 5.5 cps, Current: -87, -47
+[04Oct2025 00:27:04.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:10:16
+[04Oct2025 00:28:13.783] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:00:00
+[04Oct2025 00:28:32.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DrPingaFloja: Set the time to 1000]
